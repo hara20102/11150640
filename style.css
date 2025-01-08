@@ -1,0 +1,242 @@
+html {
+    scroll-behavior: smooth;
+}
+* {box-sizing: border-box;}
+body, ul, li, h2, h4, p ,img{
+    margin: 0; padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h2{
+    color: #D75454;
+    font-family: "otomanopee-one", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+h4{
+    color: #D75454;
+    font-family: "otomanopee-one", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    color: #964D4D;
+    font-family: "Padauk", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a.anchor{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+    }
+
+header{
+    position: fixed;
+    top: 0;
+    z-index:9999;
+    width: 100%;
+    background-color: #fff;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center
+}
+header a{
+    font-family: otomanopee-one, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #D75454;
+}
+header a:hover{
+    color: #E08C8C;
+}
+.logo-img{
+    margin: 12px 20px;
+}
+
+main{
+    margin-top: 80px;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    width: 85%;
+    max-width: 1000px;
+    border-radius: 60px;
+    background-color: #FFDFDF;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#profile{
+    width: 100%;
+    max-width: 600px;
+    padding: 140px 0 80px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.profile-img{
+    position: absolute;
+    top: -37px; left: 50%;
+    transform: translateX(-50%);
+    width: 100%; height: auto;
+    max-width: 420px; min-width: 100px;
+}
+#profile h4{
+    font-family: "Padauk", serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+#profile h2{
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+#profile p{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#friends{
+    padding: 30px 0 80px 0;
+}
+.friends{
+    display: flex;
+    gap: 11px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.friends-info{
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.friends-info img{
+    width: 172px;
+}
+.friends-info h4{
+    font-size: 16px;
+    width: 140px;
+    margin: 0 auto;
+}
+.friends-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+#diary{
+    padding: 30px 0 80px 0;
+}
+.diary{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.diary-concent{
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 274px;
+    padding: 25px 20px;
+    transition: 0.1s ease-out
+}
+.diary-concent:hover{
+    scale: 1.2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.diary-concent p{
+    font-size: 14px;
+    width: 234px;
+}
+.diary-concent a{
+    color: #E08C8C;
+}
+.diary-profile{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.diary-profile-info h4{
+    text-align: left;
+    font-size: 16px;
+}
+.diary-profile-info p{
+    font-size: 14px;
+}
+
+#movie{
+    padding: 30px 0 80px 0;
+    margin: 0 auto;
+}
+#movie iframe{
+    padding: 20px 0 0 0;
+}
+.movie-size {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.movie-size iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 60%;
+    margin: 0 auto;
+}
+footer p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    padding: 40px 0 20px 0;
+}
+.button-back_to_top{
+    position: fixed;
+    right: 5%; bottom: 10%;
+    width: 50px; height: 50px;
+    border-radius: 999px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.button-back_to_top:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #454545;
+}
+.button-back_to_top img{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
