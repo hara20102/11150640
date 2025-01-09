@@ -75,12 +75,11 @@ main img{
 }
 
 section{
-    width: 85%;
+    width: 95%;
     max-width: 1000px;
     border-radius: 60px;
     background-color: #FFDFDF;
     margin: 0 auto;
-    padding: 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +111,9 @@ section{
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #friends{
@@ -199,10 +201,11 @@ section{
 }
 .movie-size {
     position: relative;
-    width: 100%;
+    width: 90%;
     padding-top: 56.25%;
     height: 0;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .movie-size iframe {
